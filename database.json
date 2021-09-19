@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lincoln Underwood",
+      "email": "lincoln@underwood.com"
+    },
+    {
+      "id": 2,
+      "name": "Austin Peterson",
+      "email": "austin@peterson.com"
+    },
+    {
+      "id": 3,
+      "name": "Cody Lary",
+      "email": "cody@lary.com"
+    },
+    {
+      "id": 4,
+      "name": "Sam Milligan",
+      "email": "sam@milligan.com"
+    },
+    {
+      "name": "John Cena",
+      "email": "john@cena.com",
+      "id": 5
+    },
+    {
+      "name": "Brianna Underwood",
+      "email": "brianna@underwood.com",
+      "id": 6
+    },
+    {
+      "name": "Billy Bob",
+      "email": "billy@bob.com",
+      "id": 7
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "vehicleMake": "Mazda",
+      "vehicleModel": "Miata",
+      "vehicleYear": 1992
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "vehicleMake": "Ford",
+      "vehicleModel": "Mustang GT",
+      "vehicleYear": 2015
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "vehicleMake": "Cheverolet",
+      "vehicleModel": "Camaro",
+      "vehicleYear": 2003
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "vehicleMake": "Cheverolet",
+      "vehicleModel": "s10",
+      "vehicleYear": 1987
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "vehicleMake": "Volkswagen",
+      "vehicleModel": "Super Beetle",
+      "vehicleYear": 1974
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "vehicleMake": "Honda",
+      "vehicleModel": "Civic",
+      "vehicleYear": 2008
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "vehicleMake": "Dodge",
+      "vehicleModel": "Ram 3500",
+      "vehicleYear": 2003
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "vehicleMake": "Yamaha",
+      "vehicleModel": "FZ6R",
+      "vehicleYear": 2012
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "vehicleMake": "Kia",
+      "vehicleModel": "Rio",
+      "vehicleYear": 2007
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "name": "Racing Beat Front Sway Bar",
+      "userId": 1,
+      "vehicleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Eibach Lowering Springs",
+      "userId": 2,
+      "vehicleId": 2
+    },
+    {
+      "id": 3,
+      "name": "LED Headlights",
+      "userId": 3,
+      "vehicleId": 3
+    },
+    {
+      "id": 4,
+      "name": "Fuel Filter",
+      "userId": 4,
+      "vehicleId": 4
+    },
+    {
+      "id": 5,
+      "name": "Fuel Pump",
+      "userId": 4,
+      "vehicleId": 4
+    },
+    {
+      "id": 6,
+      "name": "Ignition Switch",
+      "userId": 1,
+      "vehicleId": 5
+    }
+  ]
+}
