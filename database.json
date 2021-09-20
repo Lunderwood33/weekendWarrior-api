@@ -138,5 +138,13 @@
       "userId": 1,
       "vehicleId": 5
     }
+  ],
+  "maintenance": [
+    {
+      "id": 1,
+      "serviceType": "Oil Change",
+      "userId": 1,
+      "vehicleId": 5
+    }
   ]
 }
