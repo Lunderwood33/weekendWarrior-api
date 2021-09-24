@@ -1,0 +1,247 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lincoln Underwood",
+      "email": "lincoln@underwood.com"
+    },
+    {
+      "id": 2,
+      "name": "Austin Peterson",
+      "email": "austin@peterson.com"
+    },
+    {
+      "id": 3,
+      "name": "Cody Lary",
+      "email": "cody@lary.com"
+    },
+    {
+      "id": 4,
+      "name": "Sam Milligan",
+      "email": "sam@milligan.com"
+    },
+    {
+      "name": "John Cena",
+      "email": "john@cena.com",
+      "id": 5
+    },
+    {
+      "name": "Brianna Underwood",
+      "email": "brianna@underwood.com",
+      "id": 6
+    },
+    {
+      "name": "Billy Bob",
+      "email": "billy@bob.com",
+      "id": 7
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "vehicleMake": "Mazda",
+      "vehicleModel": "Miata",
+      "vehicleYear": 1992
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "vehicleMake": "Ford",
+      "vehicleModel": "Mustang GT",
+      "vehicleYear": 2015
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "vehicleMake": "Cheverolet",
+      "vehicleModel": "Camaro",
+      "vehicleYear": 2003
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "vehicleMake": "Cheverolet",
+      "vehicleModel": "s10",
+      "vehicleYear": 1987
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "vehicleMake": "Volkswagen",
+      "vehicleModel": "Super Beetle",
+      "vehicleYear": 1974
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "vehicleMake": "Honda",
+      "vehicleModel": "Civic",
+      "vehicleYear": 2008
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "vehicleMake": "Dodge",
+      "vehicleModel": "Ram 3500",
+      "vehicleYear": 2003
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "vehicleMake": "Yamaha",
+      "vehicleModel": "FZ6R",
+      "vehicleYear": 2012
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "vehicleMake": "Kia",
+      "vehicleModel": "Rio",
+      "vehicleYear": 2007
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "name": "Racing Beat Front Sway Bar",
+      "userId": 1,
+      "vehicleId": 1,
+      "miles": 152000
+    },
+    {
+      "id": 2,
+      "name": "Eibach Lowering Springs",
+      "userId": 2,
+      "vehicleId": 2,
+      "miles": 26974
+    },
+    {
+      "id": 3,
+      "name": "LED Headlights",
+      "userId": 3,
+      "vehicleId": 3,
+      "miles": 112000
+    },
+    {
+      "id": 4,
+      "name": "Fuel Filter",
+      "userId": 4,
+      "vehicleId": 4,
+      "miles": 96000
+    },
+    {
+      "id": 5,
+      "name": "Fuel Pump",
+      "userId": 4,
+      "vehicleId": 4,
+      "miles": 96000
+    },
+    {
+      "id": 6,
+      "name": "Ignition Switch",
+      "userId": 1,
+      "vehicleId": 5,
+      "miles": 64000
+    },
+    {
+      "name": "Fuel Line",
+      "vehicleId": 5,
+      "miles": 64000,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "name": "Spark Plugs and Coil Pack",
+      "vehicleId": 9,
+      "miles": "202,000",
+      "userId": 1,
+      "id": 11
+    }
+  ],
+  "maintenance": [
+    {
+      "id": 1,
+      "serviceType": "Oil Change",
+      "miles": 65000,
+      "userId": 1,
+      "vehicleId": 5
+    },
+    {
+      "id": 2,
+      "serviceType": "Rear Brake Pads & Calipers & Rotors",
+      "miles": 65000,
+      "userId": 1,
+      "vehicleId": 6
+    },
+    {
+      "serviceType": "Front Left Wheel Bearing",
+      "vehicleId": 1,
+      "miles": "152,000",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "serviceType": "Shocks and Struts",
+      "vehicleId": 9,
+      "miles": "201,872",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "serviceType": "Oil Change",
+      "vehicleId": 7,
+      "miles": "286,782",
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "toDo": [
+    {
+    "id": 1,
+    "description": "Install Radiator",
+    "userId": 1
+  },
+    {
+    "id": 2,
+    "description": "Miata Rear Wheel Bearing",
+    "userId": 1
+  },
+    {
+    "id": 3,
+    "description": "Install Coolant Re-route",
+    "userId": 1
+  },
+    {
+    "id": 4,
+    "description": "Install Powersteering pump on the Kia",
+    "userId": 1
+  },
+    {
+    "id": 5,
+    "description": "Install Ball Joints on the Dodge",
+    "userId": 1
+  }
+]
+}
